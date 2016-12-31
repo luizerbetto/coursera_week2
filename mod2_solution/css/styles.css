@@ -1,0 +1,65 @@
+#title{
+	text-align: center;
+	width: 20%;
+	margin-right: auto;
+  	margin-left: auto;
+}
+
+#container_body{
+	width: 1000px;
+	height: 500px;
+}
+
+.box{
+	border: 1px solid black;
+	padding: 5px;
+	margin: 10px;
+	margin-right: auto;
+}
+
+#cont_chik{
+  	background-color: blue;
+}
+
+#cont_beef{
+  	background-color: red;
+}
+
+#cont_sushi{
+  	background-color: green;
+}
+
+@media (min-width: 992px){
+	.box{
+		float: left;
+		width: 30%;
+  		height: 30%;
+
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	.box{
+		float: left;
+	}
+
+	#cont_chik, #cont_beef{
+		width: 40%;
+		height: 30%;
+	}
+
+	#cont_sushi{
+		width: 90%;
+		height: 30%;
+	}
+}
+
+@media (max-width:767px){
+	.box{
+		float: left;
+		width: 90%;
+		height: 30%;
+	}
+
+}
+
