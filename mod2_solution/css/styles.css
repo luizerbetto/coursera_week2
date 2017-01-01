@@ -12,21 +12,37 @@
 
 .box{
 	border: 1px solid black;
-	padding: 5px;
 	margin: 10px;
 	margin-right: auto;
+	background-color: gray;
 }
 
-#cont_chik{
-  	background-color: blue;
+.title{
+	float: right;
+	height: 20px;
+	width: 59px;
+	text-align: center;
+	border: 1px solid black;
 }
 
-#cont_beef{
-  	background-color: red;
+#chi{
+	background-color: yellow;
 }
 
-#cont_sushi{
-  	background-color: green;
+#bee{
+	background-color: red;
+}
+
+#sus{
+	background-color: blue;
+}
+
+.text{
+	float: left;
+	width: 90%;
+	text-align: left;
+	height: 85%;
+	padding-top: 2%;
 }
 
 @media (min-width: 992px){
@@ -57,7 +73,7 @@
 @media (max-width:767px){
 	.box{
 		float: left;
-		width: 90%;
+		width: 50%;
 		height: 30%;
 	}
 
