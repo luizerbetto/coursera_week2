@@ -6,7 +6,8 @@ body {
 	background-color: #110099;
 	border-radius: 0;
 	border: 2px solid black;
-	
+	position: fixed;
+	width: 100%;
 }
 
 .navbar-brand {
@@ -49,4 +50,5 @@ li{
 	font-family: 'Arial', serif;
 	background-color: green;
 	float: center;
+	margin-top: 50px;
 }
