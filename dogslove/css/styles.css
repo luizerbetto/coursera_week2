@@ -1,72 +1,44 @@
 body {
-	background-color: blue;
-	font-family: "Roman";
-	color: #222233;
+  background-color: #0099ff;
+  font-family: "Roman";
+  color: #990000;
 }
 
-#header-nav{
-	background-color: #CC2EFA;
-	border: 0;
-	border-radius: 0;
+/*Begginig of main boddy*/
+
+#main_box{
+	padding-top: 100px;
+}
+.home_pic{
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 15px;
+	padding: 5px;
+	border: solid 2px black;
+}
+
+.home_pic span{
 	position: absolute;
+	bottom: 0;
+	right: 0;
 	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
 }
 
-.navbar-header{
-	float: left;
+.new_img{
+	display: block;
+    margin: auto;
+    width: 60%;
 }
 
-.navbar-default .navbar-brand h1{
-	color: #992211;
-	font-style: italic;
-	margin-top: 0;
-	margin-bottom: 0;
+#pars{
+	background-color: yellow;
 }
 
-.navbar-brand{
-	padding-top: 0;
-	padding-bottom: 0;
-	height: 100%;
+#others{
+	background-color: pink;
+	height: 50%;
 }
 
-.navbar-brand p {
-	display: inline;
-	color: #222233;
-}
-
-#header-text{
-	margin: 0;
-	font-family: 'Arial';
-	font-style: bold;
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
-#nav-list {
-  margin-top: 0;
-}
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-#phone {
-  margin-top: 15px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
